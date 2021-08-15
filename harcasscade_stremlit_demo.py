@@ -5,7 +5,7 @@ from PIL import Image
 import cv2
 
 #inittalise haarcascade CascadeClassifier and read in model xml file for face detction 
-face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('./haarcascade_frontalface_default.xml')
 
 #takes in image from streamlit fileuploader as PIL image and outputs image with bounding boxes of detected faces 
 def detect_faces(image):
