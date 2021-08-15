@@ -2,7 +2,6 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 from PIL import Image
-import matplotlib.pylab as plt
 import cv2
 
 #inittalise haarcascade CascadeClassifier and read in model xml file for face detction 
