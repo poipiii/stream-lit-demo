@@ -27,6 +27,7 @@ def generate_fake_tweets(EVIL_URL,model):
 
 
 st.title('Genterate fake tweets with a url')
+st.caption("Note this project is purely for educational and learning purposes")
 evil_url_input = st.text_input("Input your url", "http://evil.url")
 preprocessed = replace_URLs(tweets, evil_url_input)
 model = markovify.Text(preprocessed)
